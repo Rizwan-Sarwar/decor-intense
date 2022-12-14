@@ -1,0 +1,91 @@
+/* RS SHEET */
+:root {
+    --main-color: #382b73;
+}
+
+.mad-top-header {
+    padding: 0.4375rem 2.5rem;
+    background-color: var(--main-color);
+}
+
+.mad-top-header:after {
+    content: unset;
+}
+
+.mad-banner-wrap .col-lg-7 .mad-banner {
+    height: 100%;
+}
+
+.mad-banner-wrap .col-lg-7 .mad-banner img {
+    height: 100%;
+}
+
+.new__logo {
+    width: 100px;
+}
+
+.mad-icon:hover,
+.mad-dropdown--opened .mad-icon {
+    color: var(--main-color);
+}
+
+.read-more {
+    color: var(--main-color);
+}
+
+.btn {
+    background-color: var(--main-color);
+}
+
+.btn:hover {
+    background: var(--main-color);
+}
+
+section.mad-section.size-2.mad-section--stretched.mad-colorizer--scheme-light-2.mad-colorizer--scheme-color-8 {
+    background: url(../images/bg001.jpg) no-repeat fixed;
+}
+
+.mad-colorizer--scheme-light-2 {
+    color: var(--main-color);
+    color: black;
+}
+
+.mad-icon-boxes.hr-type:not(.small-size) .mad-icon-box .mad-icon-box-icon .svg {
+    stroke: var(--main-color);
+}
+
+.mad-colorizer--scheme-light-2 .mad-icon-box .mad-icon-box-title {
+    color: black;
+    color: var(--main-color);
+}
+
+.mad-label {
+    background-color: var(--main-color);
+}
+
+.mad-label.new {
+    background-color: var(--main-color);
+}
+
+.mad-back-to-top {
+    background-color: var(--main-color);
+}
+
+a.link-color-3:not(.mad-ln--independent):not(.btn):not(.read-more),
+.mad-links-color2 a:not(.mad-ln--independent):not(.btn):not(.read-more) {
+    color: var(--main-color);
+    background-image: linear-gradient(var(--main-color) 100%, var(--main-color) 100%);
+}
+
+.mad-links-color2 a:not(.mad-ln--independent):not(.btn):not(.read-more) {
+    color: rgb(255 255 255 / 50%);
+    background-image: linear-gradient(white 100%, white 100%);
+}
+
+.mad-our-info .mad-info-block a.link-color-3 {
+    color: white !important;
+}
+
+.mad-dropdown-element.shopping-cart {
+    left: auto;
+}
